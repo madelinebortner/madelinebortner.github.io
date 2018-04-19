@@ -122,15 +122,12 @@ h2, p {
 h2 {
     opacity: .5;
     font-size: 25px;
+    padding-top: 12px;
+    padding-bottom: 30px;   
 }
 
 
 /*people page*/
-
-.people {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 
 .faces img {
@@ -138,23 +135,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-.faces {
-	display: flex; /* enables flex on its children */
-    flex-direction: column;
-}
-
 /* black and white page */
 
-#blackandwhite {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.bandw {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
 
 .bandw img {
     width: 50%;
@@ -162,11 +144,6 @@ h2 {
 }
 
 /* places page */
-
-.places {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 .freedom img{
     height: 15%;
