@@ -1,0 +1,180 @@
+
+/*nav bar tabs*/
+.pages, a {
+    color: black;
+    text-decoration: none;
+}
+
+/*nav bar index page*/
+.home, a {
+    color: white;
+    text-decoration: none;
+}
+
+/*hero image*/
+h1 {
+    position: fixed;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.parent {
+    background-image: url(favorites/family.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background height: 100vh;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    position: fixed;
+    right: 0px;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
+.intro {
+    padding-top: 8%;
+    text-align: center;
+    opacity: .6;
+    height: 100vh;
+    background-size: cover;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    }
+
+
+/*background section*/
+
+.background {
+    border: 1px double grey;
+    background-color: #d8b89d;
+    color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.portrait {
+    width: 17%;
+    padding-top: 6%;
+    float: left;
+    padding-left: 30%;
+    margin-right: 20px;
+    margin-bottom: 80px;
+}
+
+.bio {
+    padding-right: 30%;
+    padding-top: 8%;
+}
+
+#contact {
+    clear: left;
+    padding: 10px;
+    border: 1px solid white;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.jgb h1 {
+    color: black;
+    display: flex;
+    font-size: 55px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.content {
+    padding-top: 7%;
+}
+
+
+h2, p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    opacity: .5;
+    font-size: 25px;
+}
+
+
+/*people page*/
+
+.people {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.faces img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.faces {
+	display: flex; /* enables flex on its children */
+    flex-direction: column;
+}
+
+/* black and white page */
+
+#blackandwhite {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bandw {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.bandw img {
+    width: 50%;
+    height: 50%;
+}
+
+/* places page */
+
+.places {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.freedom img{
+    height: 15%;
+}
+
+.scenery img {
+    width: 60%;
+}
+
+
+
