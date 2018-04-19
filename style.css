@@ -54,6 +54,12 @@ img {
     margin-bottom: 15px;
 }
 
+img:hover {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    opacity: .5;
+}
 
 .intro {
     padding-top: 8%;
@@ -88,7 +94,7 @@ img {
 
 .bio {
     padding-right: 30%;
-    padding-top: 8%;
+    padding-top: 6%;
 }
 
 #contact {
@@ -134,6 +140,7 @@ h2 {
     width: 50%;
     margin-bottom: 20px;
 }
+
 
 /* black and white page */
 
